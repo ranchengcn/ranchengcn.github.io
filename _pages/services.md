@@ -7,21 +7,21 @@ nav_order: 6
 ---
 
 <div class="services">
-    <div class="services-item">
+    <div class="services-item" style="margin-bottom: 20px;">
         <h3>Founding Chair</h3>
         <p><strong>Organization:</strong> IEEE</p>
         <p><strong>Date:</strong> 2021-07-01</p>
         <p>IEEE CIS Shenzhen Chapter</p>
         <a href="https://r10.ieee.org/shenzhen-cis/">More Info</a>
     </div>
-    <div class="services-item">
+    <div class="services-item" style="margin-bottom: 20px;">
         <h3>Chair</h3>
         <p><strong>Organization:</strong> IEEE</p>
         <p><strong>Date:</strong> 2020-01-01</p>
         <p>IEEE CIS Task Force on Data-Driven Evolutionary Optimization of Expensive Problems</p>
         <a href="https://www.emigroup.tech/index.php/news/ieee-cis-task-force-on-data-driven-evolutionary-optimization-of-expensive-problems/">More Info</a>
     </div>
-    <div class="services-item">
+    <div class="services-item" style="margin-bottom: 20px;">
         <h3>Committee Member</h3>
         <p><strong>Organization:</strong> IEEE</p>
         <p><strong>Date:</strong> 2020-01-01</p>
