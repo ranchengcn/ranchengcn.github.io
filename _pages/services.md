@@ -17,13 +17,11 @@ nav_order: 4
         <li><span class="year">2018 -- now</span>: Editorial Board Member, <span class="title">Applied Soft Computing</span></li>
         <li><span class="year">2017 -- now</span>: Editorial Board Member, <span class="title">Complex & Intelligent Systems</span></li>
     </ul>
-
     <h2>Committee Services</h2>
     <ul>
         <li><span class="year">2021 -- now</span>: <strong>Founding Chair</strong>, <span class="title">IEEE CIS Shenzhen Chapter</span></li>
         <li><span class="year">2020 -- now</span>: Chair, <span class="title">IEEE CIS Taskforce on Data-Driven Evolutionary Optimization of Expensive Problems</span></li>
     </ul>
-
     <h2>Conference Organizers</h2>
     <ul>
         <li><span class="year">CEC (2025)</span>: Organization Chair, <span class="title">2025 IEEE Congress on Evolutionary Computation, Hangzhou, China</span></li>
