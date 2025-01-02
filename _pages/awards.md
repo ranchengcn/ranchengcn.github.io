@@ -1,3 +1,11 @@
+---
+layout: page
+title: awards
+permalink: /awards/
+nav: true
+nav_order: 5
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <body>
