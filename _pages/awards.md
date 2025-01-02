@@ -1,51 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achievements</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            background: #fff;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        ul li span.year {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        ul li span.title {
-            font-style: italic;
-            color: #34495e;
-        }
-    </style>
-</head>
 <body>
     <div class="container">
-        <h1>Achievements</h1>
         <ul>
             <li><span class="year">2025</span>: Outstanding Early Career Award, <span class="title">IEEE Computational Intelligence Society</span></li>
             <li><span class="year">2024</span>: Best Paper Award, <span class="title">The 26<sup>th</sup> Genetic and Evolutionary Computation Conference (GECCO 2024)</span></li>
