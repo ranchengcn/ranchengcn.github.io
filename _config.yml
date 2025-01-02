@@ -276,7 +276,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Chen]
+  last_name: [Cheng]
   first_name: [Ran]
 
   style: apa
