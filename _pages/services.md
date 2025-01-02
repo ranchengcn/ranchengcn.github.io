@@ -6,9 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-    <body>
+
     <div class="container">
         <h2>Editorships</h2>
         <ul>
@@ -37,5 +35,4 @@ nav_order: 6
             <li><span class="year">IEEE MBEA (2016 -- 2023)</span>: <strong>Founding Chair</strong>, <span class="title">IEEE Symposium on Model-Based Evolutionary Algorithms</span></li>
         </ul>
     </div>
-    </body>
-</html>
+
