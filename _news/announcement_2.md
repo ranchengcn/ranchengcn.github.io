@@ -11,3 +11,4 @@ I joined the Department of Data Science and Artificial Intelligence at Hong Kong
 
 https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/
 
+![join_polyu](assets/img/join_polyu.png)
