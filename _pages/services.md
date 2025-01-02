@@ -20,7 +20,7 @@ nav_order: 4
     <h2>Committee Services</h2>
     <ul>
         <li><span class="year">2021 - now</span>: Founding Chair, <span class="title">IEEE CIS Shenzhen Chapter</span></li>
-        <li><span class="year">2020 - now</span>: Chair, <span class="title">IEEE CIS Taskforce on Data-Driven Evolutionary Optimization of Expensive Problems</span></li>
+        <li><span class="year">2020 - 2023</span>: Chair, <span class="title">IEEE CIS Taskforce on Data-Driven Evolutionary Optimization of Expensive Problems</span></li>
     </ul>
     <h2>Conference Organizers</h2>
     <ul>
