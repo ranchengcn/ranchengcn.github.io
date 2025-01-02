@@ -51,8 +51,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "news-prof-ran-cheng-received-the-ieee-cis-outstanding-early-career-award",
-          title: 'Prof. Ran Cheng received the IEEE CIS Outstanding Early Career Award',
+        },{id: "news-i-received-the-ieee-cis-outstanding-early-career-award",
+          title: 'I received the IEEE CIS Outstanding Early Career Award',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
