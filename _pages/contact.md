@@ -1,7 +1,7 @@
 ---
 layout: page
-title: contect
-permalink: /contect/
+title: contact
+permalink: /contact/
 nav: true
 nav_order: 6
 ---
