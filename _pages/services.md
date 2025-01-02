@@ -9,18 +9,18 @@ nav_order: 4
 <div class="container">
     <h2>Editorships</h2>
     <ul>
-        <li><span class="year">2023 -- now</span>: Associate Editor, <span class="title">ACM Transactions on Evolutionary Learning and Optimization (ACM TELO)</span></li>
-        <li><span class="year">2023 -- now</span>: Associate Editor, <span class="title">IEEE Transactions on Emerging Topics in Computational Intelligence (IEEE TETCI)</span></li>
-        <li><span class="year">2022 -- now</span>: Associate Editor, <span class="title">IEEE Transactions on Evolutionary Computation (IEEE TEVC)</span></li>
-        <li><span class="year">2021 -- now</span>: Associate Editor, <span class="title">IEEE Transactions on Cognitive and Developmental Systems (IEEE TCDS)</span></li>
-        <li><span class="year">2020 -- now</span>: Associate Editor, <span class="title">IEEE Transactions on Artificial Intelligence (IEEE TAI)</span></li>
-        <li><span class="year">2018 -- now</span>: Editorial Board Member, <span class="title">Applied Soft Computing</span></li>
-        <li><span class="year">2017 -- now</span>: Editorial Board Member, <span class="title">Complex & Intelligent Systems</span></li>
+        <li><span class="year">2023 - now</span>: Associate Editor, <span class="title">ACM Transactions on Evolutionary Learning and Optimization (ACM TELO)</span></li>
+        <li><span class="year">2023 - now</span>: Associate Editor, <span class="title">IEEE Transactions on Emerging Topics in Computational Intelligence (IEEE TETCI)</span></li>
+        <li><span class="year">2022 - now</span>: Associate Editor, <span class="title">IEEE Transactions on Evolutionary Computation (IEEE TEVC)</span></li>
+        <li><span class="year">2021 - now</span>: Associate Editor, <span class="title">IEEE Transactions on Cognitive and Developmental Systems (IEEE TCDS)</span></li>
+        <li><span class="year">2020 - now</span>: Associate Editor, <span class="title">IEEE Transactions on Artificial Intelligence (IEEE TAI)</span></li>
+        <li><span class="year">2018 - now</span>: Editorial Board Member, <span class="title">Applied Soft Computing</span></li>
+        <li><span class="year">2017 - now</span>: Editorial Board Member, <span class="title">Complex & Intelligent Systems</span></li>
     </ul>
     <h2>Committee Services</h2>
     <ul>
-        <li><span class="year">2021 -- now</span>: Founding Chair, <span class="title">IEEE CIS Shenzhen Chapter</span></li>
-        <li><span class="year">2020 -- now</span>: Chair, <span class="title">IEEE CIS Taskforce on Data-Driven Evolutionary Optimization of Expensive Problems</span></li>
+        <li><span class="year">2021 - now</span>: Founding Chair, <span class="title">IEEE CIS Shenzhen Chapter</span></li>
+        <li><span class="year">2020 - now</span>: Chair, <span class="title">IEEE CIS Taskforce on Data-Driven Evolutionary Optimization of Expensive Problems</span></li>
     </ul>
     <h2>Conference Organizers</h2>
     <ul>
