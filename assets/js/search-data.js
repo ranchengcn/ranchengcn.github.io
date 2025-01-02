@@ -69,18 +69,18 @@ ninja.data = [{
           window.open("https://github.com/ranchengcn", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-9410-8263", "_blank");
+        },
+      },{
         id: 'social-publons',
         title: 'Publons',
         section: 'Socials',
         handler: () => {
           window.open("https://publons.com/a/1307307/", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
