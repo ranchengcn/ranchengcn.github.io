@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-news",
+          title: "news",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/news/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -23,19 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-news",
-          title: "news",
+        },{id: "nav-services",
+          title: "services",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/";
+            window.location.href = "/services/";
           },
         },{id: "nav-awards",
           title: "awards",
@@ -44,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/awards/";
           },
-        },{id: "nav-services",
-          title: "services",
+        },{id: "nav-contect",
+          title: "contect",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/services/";
+            window.location.href = "/contect/";
           },
         },{id: "dropdown-publications",
               title: "publications",
