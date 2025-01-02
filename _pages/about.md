@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Professor with <a href="https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/">the Hong Kong Polytechnic University</a>
+subtitle: Associate Professor with the <a href="https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/">Hong Kong Polytechnic University</a>
 
 profile:
   align: left
