@@ -56,6 +56,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-prof-ran-cheng-joined-the-hong-kong-polytechnic-universtiy",
+          title: 'Prof. Ran Cheng joined the Hong Kong Polytechnic Universtiy',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
