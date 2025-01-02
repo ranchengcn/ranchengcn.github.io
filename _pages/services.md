@@ -10,7 +10,6 @@ nav_order: 6
 <html lang="en">
     <body>
     <div class="container">
-        <h1>Professional Services</h1>
         <h2>Editorships</h2>
         <ul>
             <li><span class="year">2023 -- now</span>: Associate Editor, <span class="title">ACM Transactions on Evolutionary Learning and Optimization (ACM TELO)</span></li>
