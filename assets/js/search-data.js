@@ -44,28 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "news-prof-ran-cheng-received-the-ieee-cis-outstanding-early-career-award",
+        },{id: "news-prof-ran-cheng-received-the-ieee-cis-outstanding-early-career-award",
           title: 'Prof. Ran Cheng received the IEEE CIS Outstanding Early Career Award',
           description: "",
           section: "News",handler: () => {
