@@ -5,10 +5,7 @@ permalink: /services/
 nav: true
 nav_order: 6
 ---
-<html lang="en">
-<head>
-<body>
-    <div class="container">
+
         <h1>Professional Services</h1>
 
         <h2>Editorships</h2>
@@ -37,6 +34,3 @@ nav_order: 6
             <li><span class="year">EMO (2021)</span>: Organizing Chair, <span class="title">11th International Conference on Evolutionary Multi-Criterion Optimization, Shenzhen, China</span></li>
             <li><span class="year">IEEE MBEA (2016 -- 2023)</span>: <strong>Founding Chair</strong>, <span class="title">IEEE Symposium on Model-Based Evolutionary Algorithms</span></li>
         </ul>
-    </div>
-</body>
-</html>
