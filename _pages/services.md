@@ -28,7 +28,7 @@ nav_order: 4
         <li><span class="year">DOCS (2024)</span>: PC Chair, <span class="title">5th International Conference on Data-Driven Optimization of Complex Systems, Hangzhou, China</span></li>
         <li><span class="year">CISCE (2023)</span>: Publicity Chair, <span class="title">5th International Conference on Communications, Information System and Computer Engineering, Guangzhou, China</span></li>
         <li><span class="year">CSAI (2022)</span>: Program Co-Chair, <span class="title">6th International Conference on Computer Science and Artificial Intelligence, Beijing, China</span></li>
-        <li><span class="year">EMO (2021)</span>: Organizing Chair, <span class="title">11th International Conference on Evolutionary Multi-Criterion Optimization, Shenzhen, China</span></li>
+        <li><span class="year">EMO (2021)</span>: Organization Chair, <span class="title">11th International Conference on Evolutionary Multi-Criterion Optimization, Shenzhen, China</span></li>
         <li><span class="year">IEEE MBEA (2016 - 2023)</span>: Founding Chair, <span class="title">IEEE Symposium on Model-Based Evolutionary Algorithms</span></li>
     </ul>
 </div>
