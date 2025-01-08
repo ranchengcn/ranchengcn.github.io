@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Professor with the <a href="https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/">Hong Kong Polytechnic University</a>
+subtitle: Associate Professor with the Hong Kong Polytechnic University</a>
 
 profile:
   align: left
@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently an Associate Professor with the [Department of Data Science & Artificial Intelligence](https://www.polyu.edu.hk/dsai/) and [Department of Computing](https://www.polyu.edu.hk/comp/) at Hong Kong Polytechnic University (PolyU). Previously, I was an Associate Professor with the [Department of Computer Science and Engineering](https://cse.sustech.edu.cn/en/) at Southern University of Science and Technology (SUSTech). I received the BSc degree from Northeastern University (China) in 2010 and the PhD degree from the University of Surrey (UK) in 2016. Additionally, I spent three years at Zhejiang University as a postgraduate student between 2010 and 2012, a period of cherished memories and personal growth.
+I am currently an Associate Professor (Presidential Young Scholar) with the [Department of Data Science & Artificial Intelligence](https://www.polyu.edu.hk/dsai/) and [Department of Computing](https://www.polyu.edu.hk/comp/) at Hong Kong Polytechnic University (PolyU). Previously, I was an Associate Professor with the [Department of Computer Science and Engineering](https://cse.sustech.edu.cn/en/) at Southern University of Science and Technology (SUSTech). I received the BSc degree from Northeastern University (China) in 2010 and the PhD degree from the University of Surrey (UK) in 2016. Additionally, I spent three years at Zhejiang University as a postgraduate student between 2010 and 2012, a period of cherished memories and personal growth.
 
 My research philosophy is centered on *benefiting humanity by bridging nature and technology*. Within the broad domain of Artificial Intelligence (AI), my research focuses on advancing [Computational Intelligence (CI)](https://en.wikipedia.org/wiki/Computational_intelligence) to tackle modeling and optimization challenges in complex systems. My primary research interests include Evolutionary Computation (EC) and Representation Learning (RL), with an emphasis on developing efficient and scalable computational methods leveraging modern hardware acceleration. As a representative effort, I initiated the [EvoX](https://evox.group/) project, aiming at bridging traditional EC methodologies with advanced GPU computing infrastructures. 
 
