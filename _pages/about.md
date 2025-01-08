@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently an Associate Professor with the Hong Kong Polytechnic University. My research focuses on advancing Computational Intelligence to tackle modeling and optimization challenges in complex systems. My primary research interests include evolutionary computation and representation learning, with an emphasis on developing efficient and scalable computational methods.
+I am currently an Associate Professor with the Department of Data Science & Aritificial Intelligence and Department of Computing at Hong Kong Polytechnic University (PolyU). Previously, I was an Associate Professor with the Department of Computer Science and Engineering at Southern University of Science and Technology (SUSTech). I received the BSc degree from Northeastern University, China, in 2010, and the PhD degree from the University of Surrey, U.K., in 2016. My research focuses on advancing Computational Intelligence to tackle modeling and optimization challenges in complex systems. My primary research interests include evolutionary computation and representation learning, with an emphasis on developing efficient and scalable computational methods.
 
 I am the founding chair of IEEE Computational Intelligence Society (CIS) Shenzhen Chapter. I am serving as an Associated Editor/Editorial Board Member for several journals, including: ACM Transactions on Evolutionary Learning and Optimization, IEEE Transactions on Evolutionary Computation, IEEE Transactions on Emerging Topics in Computational Intelligence, IEEE Transactions on Cognitive and Developmental Systems, IEEE Transactions on Artificial Intelligence, etc.
 
