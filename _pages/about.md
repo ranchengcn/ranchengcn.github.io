@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate Professor with the Hong Kong Polytechnic University</a>
+subtitle: Associate Professor</a>
 
 profile:
   align: left
