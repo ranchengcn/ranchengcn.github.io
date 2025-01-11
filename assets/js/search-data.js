@@ -66,7 +66,7 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/ranchengcn", "_blank");
+          window.open("https://github.com/EMI-Group", "_blank");
         },
       },{
         id: 'social-orcid',
