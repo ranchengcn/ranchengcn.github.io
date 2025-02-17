@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{metade,
+  abstract={As a cornerstone in the Evolutionary Computation (EC) domain, Differential Evolution (DE) is known for its simplicity and effectiveness in handling challenging black-box optimization problems. While the advantages of DE are well-recognized, achieving peak performance heavily depends on its hyperparameters such as the mutation factor, crossover probability, and the selection of specific DE strategies. Traditional approaches to this hyperparameter dilemma have leaned towards parameter tuning or adaptive mechanisms. However, identifying the optimal settings tailored for specific problems remains a persistent challenge. In response, we introduce MetaDE, an approach that evolves DE’s intrinsic hyperparameters and strategies using DE itself at a meta-level. A pivotal aspect of MetaDE is a specialized parameterization technique, which endows it with the capability to dynamically modify DE’s parameters and strategies throughout the evolutionary process. To augment computational efficiency, MetaDE incorporates a design that leverages parallel processing through a GPU-accelerated computing framework. Within such a framework, DE is not just a solver but also an optimizer for its own configurations, thus streamlining the process of hyperparameter optimization and problem-solving into a cohesive and automated workflow. Extensive evaluations on the CEC2022 benchmark suite demonstrate MetaDE’s promising performance. Moreover, when applied to robot control via evolutionary reinforcement learning, MetaDE also demonstrates promising performance. The source code of MetaDE is publicly accessible at: https://github.com/EMI-Group/metade.},
+  title = {{MetaDE}: Evolving Differential Evolution by Differential Evolution},
+  author = {Chen, Minyang and Feng, Chenchen and Cheng, Ran},
+  journal = {IEEE Transactions on Evolutionary Computation},
+  year = 2025,
+  doi = {10.1109/TEVC.2025.3541587},
+  abbr={IEEE TEVC},
+  preview={metade.png},
+  selected={true}
+}
+
 @article{evox,
   abstract={Inspired by natural evolutionary processes, Evolutionary Computation (EC) has established itself as a cornerstone of Artificial Intelligence. Recently, with the surge in data-intensive applications and large-scale complex systems, the demand for scalable EC solutions has grown significantly. However, most existing EC infrastructures fall short of catering to the heightened demands of large-scale problem solving. While the advent of some pioneering GPU-accelerated EC libraries is a step forward, they also grapple with some limitations, particularly in terms of flexibility and architectural robustness. In response, we introduce EvoX: a computing framework tailored for automated, distributed, and heterogeneous execution of EC algorithms. At the core of EvoX lies a unique programming model to streamline the development of parallelizable EC algorithms, complemented by a computation model specifically optimized for distributed GPU acceleration. Building upon this foundation, we have crafted an extensive library comprising a wide spectrum of 50+ EC algorithms for both single-and multi-objective optimization. Furthermore, the library offers comprehensive support for a diverse set of benchmark problems, ranging from dozens of numerical test functions to hundreds of reinforcement learning tasks. Through extensive experiments across a range of problem scenarios and hardware configurations, EvoX demonstrates robust system and model performances. EvoX is open-source and accessible at: https://github.com/EMI-Group/EvoX.},
   title={{EvoX}: A Distributed {GPU}-accelerated Framework for Scalable Evolutionary Computation},
