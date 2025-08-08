@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I received the IEEE CIS Outstanding Early Career Award
+title: I Received the IEEE CIS Outstanding Early Career Award
 date: 2024-06-01 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
