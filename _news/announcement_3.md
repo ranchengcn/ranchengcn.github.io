@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Our EvoGit wins First Place in AgentX International Competition
+title: Our EvoGit Wins First Place in AgentX International Competition
 date: 2025-08-08
 inline: false
 related_posts: false
 ---
-
-![Picture1r](https://www.polyu.edu.hk/dsai/-/media/Department/DSAI/Media-Release/2025/News_20250807_Picture1r.png?h=500&w=1000&rev=d00e9dd5b795456fafcde362b0d22195&hash=60725E5A827AA8FBA8DCA6C0146FF3DC)
 
 We are thrilled to announce that our project **EvoGit** has won **First Place globally** in the **Multi-Agent Systems track** of the prestigious [**AgentX International Competition**](https://rdi.berkeley.edu/agentx/). Organized by the **University of California, Berkeley** and supported by leading tech companies such as **Google**, **Amazon**, and **Hugging Face**, AgentX is one of the most influential global platforms for advancing Large Language Model (LLM) agent technologies.
 
@@ -27,4 +25,5 @@ Our team from PolyU’s Department of Data Science and Artificial Intelligence (
 This architecture enables **self-organizing**, **scalable**, and **resilient** agent behavior. By building on standard Git infrastructure, EvoGit also facilitates **seamless human-agent collaboration**, allowing developers to inspect, intervene, and co-create using familiar version control tools.
 
 EvoGit represents a significant step toward building **evolvable LLM agents**—intelligent systems capable of autonomously improving their own structure and behavior over time.
+
 
