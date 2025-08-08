@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I joined the Hong Kong Polytechnic Universtiy
+title: I Joined the Hong Kong Polytechnic Universtiy
 date: 2024-12-16 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
