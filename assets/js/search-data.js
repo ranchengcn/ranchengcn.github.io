@@ -45,12 +45,12 @@ ninja.data = [{
             window.location.href = "/contact/";
           },
         },{id: "news-i-received-the-ieee-cis-outstanding-early-career-award",
-          title: 'I received the IEEE CIS Outstanding Early Career Award',
+          title: 'I Received the IEEE CIS Outstanding Early Career Award',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
             },},{id: "news-i-joined-the-hong-kong-polytechnic-universtiy",
-          title: 'I joined the Hong Kong Polytechnic Universtiy',
+          title: 'I Joined the Hong Kong Polytechnic Universtiy',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
