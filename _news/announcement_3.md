@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/2d5883cf-8399-4e59-b18e-0fecc7c3635f" />---
+<img width="1000" height="500" alt="image" src="(https://www.polyu.edu.hk/dsai/-/media/Department/DSAI/Media-Release/2025/01-08/News_20250807_Picture1r.png?rev=2c0f74a855b846a49ceb053c1e3a9e71&hash=815E2EE9F76EC9052960F04A031BD9B5" />---
 layout: post
 title: Our EvoGit Wins First Place in AgentX International Competition
 date: 2025-08-08
@@ -25,6 +25,7 @@ Our team from PolyU’s Department of Data Science and Artificial Intelligence (
 This architecture enables **self-organizing**, **scalable**, and **resilient** agent behavior. By building on standard Git infrastructure, EvoGit also facilitates **seamless human-agent collaboration**, allowing developers to inspect, intervene, and co-create using familiar version control tools.
 
 EvoGit represents a significant step toward building **evolvable LLM agents**—intelligent systems capable of autonomously improving their own structure and behavior over time.
+
 
 
 
