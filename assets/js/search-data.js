@@ -50,15 +50,10 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
             },},{id: "news-i-joined-the-hong-kong-polytechnic-universtiy",
-          title: 'I joined the Hong Kong Polytechnic Universtiy',
+          title: 'I Joined the Hong Kong Polytechnic Universtiy',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-our-evogit-wins-first-place-in-agentx-international-competition",
-          title: 'Our EvoGit wins First Place in AgentX International Competition',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
             },},{
         id: 'social-email',
         title: 'email',
