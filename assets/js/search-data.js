@@ -54,8 +54,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-our-evogit-wins-the-first-place-of-agentx-competition",
-          title: 'Our EvoGit Wins the First Place of AgentX Competition',
+            },},{id: "news-evogit-wins-the-first-place-of-agentx-competition",
+          title: 'EvoGit Wins the First Place of AgentX Competition',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
