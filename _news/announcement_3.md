@@ -1,4 +1,4 @@
----
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/2d5883cf-8399-4e59-b18e-0fecc7c3635f" />---
 layout: post
 title: Our EvoGit Wins First Place in AgentX International Competition
 date: 2025-08-08
@@ -8,7 +8,7 @@ related_posts: false
 
 We are thrilled to announce that our project **EvoGit** has won **First Place globally** in the **Multi-Agent Systems track** of the prestigious [**AgentX International Competition**](https://rdi.berkeley.edu/agentx/). Organized by the **University of California, Berkeley** and supported by leading tech companies such as **Google**, **Amazon**, and **Hugging Face**, AgentX is one of the most influential global platforms for advancing Large Language Model (LLM) agent technologies.
 
-![Picture2r](https://www.polyu.edu.hk/dsai/-/media/Department/DSAI/Media-Release/2025/News_20250807_Picture2r.png?h=500&w=1000&rev=5e71579a61884b6f81eb20c5ef0494ff&hash=454C046B70CE74906EE9A042FEAF391D)
+![Picture2r](https://www.polyu.edu.hk/dsai/-/media/Department/DSAI/Media-Release/2025/01-08/News_20250807_Picture2r.png?rev=3c9e21edc3164f24bc27fca2b97d9e54&hash=90523A5004FA39F4CB8CB0269087C3A1)
 
 *Overview of the AgentX - LLM Agents MOOC Competition (Spring 2025)*
 
@@ -16,7 +16,7 @@ The competition drew nearly **1,000 teams** from over **100 countries and 800 un
 
 Our team from PolyU’s Department of Data Science and Artificial Intelligence (DSAI) was the **only representative from China (including Hong Kong, Macau, and Taiwan)** to reach the finals—and ultimately secured **First Place** in the most technically challenging category with their pioneering project, **EvoGit**.
 
-![Picture6r](https://www.polyu.edu.hk/dsai/-/media/Department/DSAI/Media-Release/2025/News_20250807_Picture6r.png?rev=7205a9ced36243608cf5631703565d60&hash=163610A0A940CC4F88B865CF90342B70)
+![Picture6r](https://www.polyu.edu.hk/dsai/-/media/Department/DSAI/Media-Release/2025/01-08/News_20250807_Picture6r.png?rev=eee08fefdc4b4f96a14702074db39526&hash=07BC381335F88EAF081B06E748EC0B20)
 
 *EvoGit constructs the evolutionary process of code as a Directed Acyclic Graph (DAG), where multiple agents collaboratively evolve and continuously develop.*
 
@@ -25,5 +25,6 @@ Our team from PolyU’s Department of Data Science and Artificial Intelligence (
 This architecture enables **self-organizing**, **scalable**, and **resilient** agent behavior. By building on standard Git infrastructure, EvoGit also facilitates **seamless human-agent collaboration**, allowing developers to inspect, intervene, and co-create using familiar version control tools.
 
 EvoGit represents a significant step toward building **evolvable LLM agents**—intelligent systems capable of autonomously improving their own structure and behavior over time.
+
 
 
