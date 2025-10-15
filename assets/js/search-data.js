@@ -59,6 +59,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
+            },},{id: "news-our-paper-is-accepted-by-neurips-2025-as-spotlight",
+          title: 'Our Paper is Accepted by NeurIPS 2025 as Spotlight',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
             },},{
         id: 'social-email',
         title: 'email',
