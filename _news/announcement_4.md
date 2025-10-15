@@ -10,7 +10,7 @@ related_posts: false
 
 ---
 
-##Diversity-Aware Policy Optimization for Large Language Model Reasoning
+### Diversity-Aware Policy Optimization for Large Language Model Reasoning
 
 **Authors:** Jian Yao; Ran Cheng; Xingyu Wu; Jibin Wu; Kay Chen Tan  
 **Conference:** *The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025, Spotlight)*  
@@ -102,5 +102,6 @@ Future research will explore **semantic-level diversity**, moving beyond statist
 By bridging traditional RL insights with modern LLM reasoning, *Diversity-Aware Policy Optimization* marks a significant step toward **smarter, more explorative, and more human-like AI reasoning systems**.
 
 ---
+
 
 
