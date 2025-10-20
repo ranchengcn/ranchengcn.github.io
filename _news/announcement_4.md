@@ -36,7 +36,7 @@ Building on this insight, the authors systematically investigated whether divers
 
 ---
 
-### 🧪 A 12-Model Diversity Analysis
+### 🧪 Model Diversity Analysis
 
 To test this hypothesis, the team conducted a comprehensive study involving **12 representative LLMs**, ranging from base to RL-tuned models, evaluated on the **MATH** dataset.  
 They examined three key indicators:
@@ -102,6 +102,7 @@ Future research will explore **semantic-level diversity**, moving beyond statist
 By bridging traditional RL insights with modern LLM reasoning, *Diversity-Aware Policy Optimization* marks a significant step toward **smarter, more explorative, and more human-like AI reasoning systems**.
 
 ---
+
 
 
 
