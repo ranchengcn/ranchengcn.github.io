@@ -64,8 +64,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
-            },},{id: "news-i-am-named-a-2025-highly-cited-researcher",
-          title: 'I am Named a 2025 Highly Cited Researcher',
+            },},{id: "news-i-am-named-a-2025-clarivate-highly-cited-researcher",
+          title: 'I am Named a 2025 Clarivate Highly Cited Researcher',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
