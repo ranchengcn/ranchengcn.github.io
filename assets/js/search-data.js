@@ -64,6 +64,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
+            },},{id: "news-i-am-honored-to-be-named-2025-highly-cited-researcher",
+          title: 'I am Honored to be Named 2025 Highly Cited Researcher',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
             },},{
         id: 'social-email',
         title: 'email',
