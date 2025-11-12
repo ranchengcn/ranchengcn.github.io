@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I am Named a 2025 Highly Cited Researcher
+title: I am Named a 2025 Clarivate Highly Cited Researcher
 date: 2025-11-12 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
@@ -22,6 +22,7 @@ This distinction is awarded to researchers who have demonstrated significant and
 
 **Official 2025 Highly Cited Researchers List:**
 [https://clarivate.com/highly-cited-researchers/](https://clarivate.com/highly-cited-researchers/)
+
 
 
 
