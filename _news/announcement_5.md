@@ -17,9 +17,9 @@ This distinction is awarded to researchers who have demonstrated significant and
 
 ### Find Out More
 
-**My Clarivate Profile (Web of Science):**
+**My Clarivate Profile (Web of Science):** 
 [https://www.webofscience.com/wos/author/record/V-1486-2018](https://www.webofscience.com/wos/author/record/V-1486-2018)
 
 **Official 2025 Highly Cited Researchers List:**
-
 [https://clarivate.com/highly-cited-researchers/](https://clarivate.com/highly-cited-researchers/)
+
