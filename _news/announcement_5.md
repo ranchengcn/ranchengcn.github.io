@@ -7,7 +7,7 @@ related_posts: false
 ---
 
 
-I am deeply honored to share that I have been named a **Highly Cited Researcher for 2025** by Clarivate.
+I am honored to share that I have been named a **Highly Cited Researcher for 2025** by Clarivate.
 
 This recognition is for my work in the field of **Computer Science**, and it marks the third consecutive year I have received this distinction (2023, 2024, 2025).
 
@@ -22,5 +22,6 @@ This distinction is awarded to researchers who have demonstrated significant and
 
 **Official 2025 Highly Cited Researchers List:**
 [https://clarivate.com/highly-cited-researchers/](https://clarivate.com/highly-cited-researchers/)
+
 
 
