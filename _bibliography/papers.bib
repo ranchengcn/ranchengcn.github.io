@@ -1,6 +1,30 @@
 ---
 ---
 
+@article{evogo,
+  abstract={Recent advances in data-driven evolutionary algorithms (EAs) have demonstrated the potential of leveraging historical data to improve optimization accuracy and adaptability. Despite these advancements, existing methods remain reliant on handcrafted process-level operators. In contrast, Evolutionary Generative Optimization (EvoGO) is a fully data-driven framework designed from the objective level, enabling autonomous learning of the entire search process. EvoGO streamlines the evolutionary optimization process into three stages: data preparation, model training, and population generation. The data preparation stage constructs a pairwise dataset to enrich training diversity without incurring additional evaluation costs. During model training, a tailored generative model learns to transform inferior solutions into superior ones. In the population generation stage, EvoGO replaces traditional reproduction operators with a scalable and parallelizable generative mechanism. Extensive experiments on numerical benchmarks, classical control problems, and high-dimensional robotic tasks demonstrate that EvoGO consistently converges within merely 10 generations and substantially outperforms a wide spectrum of optimization approaches, including traditional EAs, Bayesian optimization, and reinforcement learning based methods. Code is available at: \url{https://github.com/EMI-Group/evogo}.},
+  title = {Evolutionary Generative Optimization: Towards Fully Data-Driven Evolutionary Optimization via Generative Learning},
+  author = {Jiang, Tao and Sun, Kebin and Liang, Zhenyu and Cheng, Ran and Jin, Yaochu and Tan, Kay Chen},
+  journal = {IEEE Transactions on Evolutionary Computation},
+  year = 2026,
+  doi = {10.1109/TEVC.2026.3664432},
+  abbr={IEEE TEVC},
+  preview={evogo.png},
+  selected={true}
+}
+
+@article{evogp,
+  abstract={Tree-based Genetic Programming (TGP) is a widely used evolutionary algorithm for tasks such as symbolic regression, classification, and robotic control. Due to the intensive computational demands of running TGP, GPU acceleration is crucial for achieving scalable performance. However, efficient GPU-based execution of TGP remains challenging, primarily due to three core issues: (1) the structural heterogeneity of program individuals, (2) the complexity of integrating multiple levels of parallelism, and (3) the incompatibility between high-performance CUDA execution and flexible Python-based environments. To address these issues, we propose EvoGP, a high-performance framework tailored for GPU acceleration of TGP via population-level parallel execution. First, EvoGP introduces a tensorized representation that encodes variable-sized trees into fixed-shape, memory-aligned arrays, enabling uniform memory access and parallel computation across diverse individuals. Second, EvoGP adopts an adaptive parallelism strategy that dynamically combines intra- and inter-individual parallelism based on dataset size, ensuring high GPU utilization across a broad spectrum of tasks. Third, EvoGP embeds custom CUDA kernels into the PyTorch runtime, achieving seamless integration with Python-based environments such as Gym, MuJoCo, Brax, and Genesis. Experimental results demonstrate that EvoGP achieves a peak throughput exceeding 10^{11} GPops/s. Specifically, this performance represents a speedup of up to 304× over existing GPU-based TGP implementations and 18× over state-of-the-art CPU-based libraries. Furthermore, EvoGP maintains comparable accuracy and exhibits improved scalability across large population sizes. EvoGP is open source and accessible at \url{https://github.com/EMI-Group/evogp}.},
+  title = {Enabling Population-Level Parallelism in Tree-Based Genetic Programming for {GPU} Acceleration},
+  author = {Wu, Zhihong and Wang, Lishuang and Sun, Kebin and Li, Zhuozhao and Cheng, Ran},
+  journal = {IEEE Transactions on Evolutionary Computation},
+  year = 2026,
+  doi = {10.1109/TEVC.2026.3663396},
+  abbr={IEEE TEVC},
+  preview={evogp.png},
+  selected={true}
+}
+
 @article{evomo,
   abstract={Evolutionary multiobjective optimization (EMO) has made significant strides over the past two decades. However, as problem scales and complexities increase, traditional EMO algorithms face substantial performance limitations due to insufficient parallelism and scalability. While most work has focused on algorithm design to address these challenges, little attention has been given to hardware acceleration, thereby leaving a clear gap between EMO algorithms and advanced computing devices, such as GPUs. To bridge the gap, we propose to parallelize EMO algorithms on GPUs via the \emph{tensorization} methodology. By employing tensorization, the data structures and operations of EMO algorithms are transformed into concise tensor representations, which seamlessly enables automatic utilization of GPU computing. We demonstrate the effectiveness of our approach by applying it to three representative EMO algorithms: NSGA-III, MOEA/D, and HypE. To comprehensively assess our methodology, we introduce a multiobjective robot control benchmark using a GPU-accelerated physics engine. Our experiments show that the tensorized EMO algorithms achieve speedups of up to 1113x compared to their CPU-based counterparts, while maintaining solution quality and effectively scaling population sizes to hundreds of thousands. Furthermore, the tensorized EMO algorithms efficiently tackle complex multiobjective robot control tasks, producing high-quality solutions with diverse behaviors. Source codes are available at \url{https://github.com/EMI-Group/evomo}.},
   title = {Bridging Evolutionary Multiobjective Optimization and {GPU} Acceleration via Tensorization},
@@ -37,18 +61,3 @@
   selected={true}
 }
 
-@article{evoxbench,
-  abstract = {The ongoing advancements in network architecture design have led to remarkable achievements in deep learning across various challenging computer vision tasks. Meanwhile, the development of neural architecture search (NAS) has provided promising approaches to automating the design of network architectures for lower prediction error. Recently, the emerging application scenarios of deep learning (e.g., autonomous driving) have raised higher demands for network architectures considering multiple design criteria: number of parameters/weights, number of floating-point operations, inference latency, among others. From an optimization point of view, the NAS tasks involving multiple design criteria are intrinsically multiobjective optimization problems; hence, it is reasonable to adopt evolutionary multiobjective optimization (EMO) algorithms for tackling them. Nonetheless, there is still a clear gap confining the related research along this pathway: on the one hand, there is a lack of a general problem formulation of NAS tasks from an optimization point of view; on the other hand, there are challenges in conducting benchmark assessments of EMO algorithms on NAS tasks. To bridge the gap: 1) we formulate NAS tasks into general multiobjective optimization problems and analyze the complex characteristics from an optimization point of view; 2) we present an end-to-end pipeline, dubbed EvoXBench , to generate benchmark test problems for EMO algorithms to run efficiently—without the requirement of GPUs or Pytorch/Tensorflow; and 3) we instantiate two test suites comprehensively covering two datasets, seven search spaces, and three hardware devices, involving up to eight objectives. Based on the above, we validate the proposed test suites using six representative EMO algorithms and provide some empirical analyses. The code of EvoXBench is available at https://github.com/EMI-Group/EvoXBench.},
-  title={Neural Architecture Search as Multiobjective Optimization Benchmarks: Problem Formulation and Performance Assessment},
-  author={Lu, Zhichao and Cheng, Ran and Jin, Yaochu and Tan, Kay Chen and Deb, Kalyanmoy},
-  journal={IEEE Transactions on Evolutionary Computation},
-  volume={28},
-  number={2},
-  pages={323--337},
-  year={2023},
-  publisher={IEEE},
-  doi={10.1109/TEVC.2022.3233364},
-  abbr={IEEE TEVC},
-  preview={evoxbench.png},
-  selected={true}
-}
