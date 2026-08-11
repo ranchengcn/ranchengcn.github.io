@@ -69,6 +69,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
+            },},{id: "news-we-released-evox-genesis-a-recursive-self-evolving-system-for-long-horizon-software-development",
+          title: 'We Released EvoX Genesis: A Recursive Self-Evolving System for Long-Horizon Software Development',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
             },},{
         id: 'social-email',
         title: 'email',
