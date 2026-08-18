@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our EvoGit Wins the First Place of AgentX Competition
+title: Our EvoGit wins the first place of AgentX competition
 date: 2025-08-07 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false

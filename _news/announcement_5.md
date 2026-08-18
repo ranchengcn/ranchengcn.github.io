@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I am Named a 2025 Clarivate Highly Cited Researcher
+title: I am named a 2025 Clarivate highly cited researcher
 date: 2025-11-12 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
