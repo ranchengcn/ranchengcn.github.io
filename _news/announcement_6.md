@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "We Released EvoX Genesis: A Recursive Self-Evolving System for Long-Horizon Software Development"
+title: "We released EvoX Genesis: a recursive self-evolving system for long-horizon software development"
 date: 2026-08-11 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
