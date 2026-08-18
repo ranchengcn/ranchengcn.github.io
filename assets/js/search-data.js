@@ -69,8 +69,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
-            },},{id: "news-we-released-evox-genesis-an-ai-system-for-long-horizon-autonomous-software-evolution",
-          title: 'We released EvoX Genesis: an AI system for long-horizon autonomous software evolution',
+            },},{id: "news-we-released-evox-genesis",
+          title: 'We released EvoX Genesis',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6/";
