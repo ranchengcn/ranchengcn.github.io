@@ -45,32 +45,32 @@ ninja.data = [{
             window.location.href = "/contact/";
           },
         },{id: "news-i-received-the-ieee-cis-outstanding-early-career-award",
-          title: 'I Received the IEEE CIS Outstanding Early Career Award',
+          title: 'I received the IEEE CIS outstanding early career award',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
             },},{id: "news-i-joined-the-hong-kong-polytechnic-universtiy",
-          title: 'I Joined the Hong Kong Polytechnic Universtiy',
+          title: 'I joined the Hong Kong Polytechnic Universtiy',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-our-evogit-wins-the-first-place-of-agentx-competition",
-          title: 'Our EvoGit Wins the First Place of AgentX Competition',
+          title: 'Our EvoGit wins the first place of AgentX competition',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
             },},{id: "news-our-paper-is-accepted-by-neurips-2025-as-spotlight",
-          title: 'Our Paper is Accepted by NeurIPS 2025 as Spotlight',
+          title: 'Our paper is accepted by NeurIPS 2025 as spotlight',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
             },},{id: "news-i-am-named-a-2025-clarivate-highly-cited-researcher",
-          title: 'I am Named a 2025 Clarivate Highly Cited Researcher',
+          title: 'I am named a 2025 Clarivate highly cited researcher',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
             },},{id: "news-we-released-evox-genesis-a-recursive-self-evolving-system-for-long-horizon-software-development",
-          title: 'We Released EvoX Genesis: A Recursive Self-Evolving System for Long-Horizon Software Development',
+          title: 'We released EvoX Genesis: a recursive self-evolving system for long-horizon software development',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6/";
