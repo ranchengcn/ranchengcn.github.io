@@ -84,12 +84,23 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Check translation coverage
+        run: python3 bin/check_i18n.py
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Check bilingual output
+        run: python3 bin/check_i18n.py --site _site
+      - name: Preview artifact
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: bilingual-site-preview
+          path: _site
+          retention-days: 3
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

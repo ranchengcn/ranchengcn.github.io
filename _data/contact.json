@@ -1,0 +1,12 @@
+{
+  "phone": "+852 2766 7243",
+  "email": "ranchengcn@gmail.com",
+  "office": {
+    "en": "Room AG406, Chung Sze Yuen Building (Core A)",
+    "zh-CN": "钟士元楼（A座）AG406室"
+  },
+  "address": {
+    "en": "The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong",
+    "zh-CN": "香港九龙红磡，香港理工大学"
+  }
+}

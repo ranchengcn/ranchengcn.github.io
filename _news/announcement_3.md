@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: announcement_3
 layout: post
 title: Our EvoGit wins the first place of AgentX competition
 date: 2025-08-07 # format 2015-11-07 16:11:00-0400
@@ -25,12 +27,3 @@ Our team from PolyU’s Department of Data Science and Artificial Intelligence (
 This architecture enables **self-organizing**, **scalable**, and **resilient** agent behavior. By building on standard Git infrastructure, EvoGit also facilitates **seamless human-agent collaboration**, allowing developers to inspect, intervene, and co-create using familiar version control tools.
 
 EvoGit represents a significant step toward building **evolvable LLM agents**—intelligent systems capable of autonomously improving their own structure and behavior over time.
-
-
-
-
-
-
-
-
-

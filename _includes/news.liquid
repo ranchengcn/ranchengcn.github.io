@@ -1,6 +1,8 @@
+{% include i18n.liquid %}
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news = site.news %}
+  {% assign news = site.news %}
+  {% if current_lang == 'zh-CN' %}{% assign news = site.news_zh %}{% endif %}
+  {% if news != blank %}
     {% if include.limit %}
       {% assign news = news | where_exp: 'item', 'item.homepage != false' %}
     {% endif %}
@@ -20,7 +22,7 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 20%">{{ item.date | date: t.date_format }}</th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -33,6 +35,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>{{ t.empty_news }}</p>
   {% endif %}
 </div>

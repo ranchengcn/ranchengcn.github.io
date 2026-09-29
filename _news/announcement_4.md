@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: announcement_4
 layout: post
 title: Our paper is accepted by NeurIPS 2025 as spotlight
 date: 2025-09-20 # format 2015-11-07 16:11:00-0400
@@ -7,14 +9,12 @@ related_posts: false
 homepage: false
 ---
 
-
-
 ---
 
 ### Diversity-Aware Policy Optimization for Large Language Model Reasoning
 
 **Authors:** Jian Yao; Ran Cheng; Xingyu Wu; Jibin Wu; Kay Chen Tan  
-**Conference:** *The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025, Spotlight)*  
+**Conference:** _The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025, Spotlight)_  
 **Paper:** [[2505.23433] Diversity-Aware Policy Optimization for Large Language Model Reasoning](https://arxiv.org/abs/2505.23433)  
 **Code:** [GitHub - nigelyaoj/R1_zero_Div](https://github.com/nigelyaoj/R1_zero_Div)
 
@@ -22,18 +22,18 @@ homepage: false
 
 ### 🌟 A New Look at Reasoning in the Era of Reinforcement-Tuned LLMs
 
-Large Language Models (LLMs) have achieved remarkable reasoning performance in recent years, largely fueled by Reinforcement Learning (RL)–based fine-tuning techniques. Since **DeepSeek-R1** introduced the *Group Relative Policy Optimization (GRPO)* framework, numerous studies have sought to refine reward design and training efficiency—pushing the limits of mathematical and logical reasoning.
+Large Language Models (LLMs) have achieved remarkable reasoning performance in recent years, largely fueled by Reinforcement Learning (RL)–based fine-tuning techniques. Since **DeepSeek-R1** introduced the _Group Relative Policy Optimization (GRPO)_ framework, numerous studies have sought to refine reward design and training efficiency—pushing the limits of mathematical and logical reasoning.
 
 Yet, one critical factor that has long proven vital in classical RL—the **diversity of policies**—has been largely overlooked. When RL is applied to enhance LLM reasoning, does policy diversity still matter?  
-This question lies at the heart of *Diversity-Aware Policy Optimization for LLM Reasoning*, the first systematic study revealing the importance of diversity in RL-tuned LLMs and introducing a new approach—**R1-zero-Div**—that explicitly incorporates diversity into the RL fine-tuning process.
+This question lies at the heart of _Diversity-Aware Policy Optimization for LLM Reasoning_, the first systematic study revealing the importance of diversity in RL-tuned LLMs and introducing a new approach—**R1-zero-Div**—that explicitly incorporates diversity into the RL fine-tuning process.
 
 ---
 
 ### 🔍 Understanding the Background: Why Diversity Matters
 
-Traditional RL research has consistently shown that **policy diversity** promotes exploration, prevents premature convergence, and improves generalization. Analogously, in LLM reasoning tasks, “diverse solutions” may represent different chains of thought or logical pathways—essentially, varied *ways of thinking*.
+Traditional RL research has consistently shown that **policy diversity** promotes exploration, prevents premature convergence, and improves generalization. Analogously, in LLM reasoning tasks, “diverse solutions” may represent different chains of thought or logical pathways—essentially, varied _ways of thinking_.
 
-Building on this insight, the authors systematically investigated whether diversity could similarly affect the learning potential of LLMs under RL fine-tuning. Their findings demonstrate that diversity is not merely aesthetic—it is *predictive* of further learning gains.
+Building on this insight, the authors systematically investigated whether diversity could similarly affect the learning potential of LLMs under RL fine-tuning. Their findings demonstrate that diversity is not merely aesthetic—it is _predictive_ of further learning gains.
 
 ---
 
@@ -58,9 +58,9 @@ The results revealed a striking pattern:
 ### ⚙️ The Proposed Method: R1-zero-Div
 
 Motivated by these findings, the authors extended the **R1-zero** framework to encourage diversity explicitly.  
-Their method introduces a **token-level entropy regularization** term to measure the richness of decision-making during generation—without biasing toward longer sequences. To ensure learning quality, this regularization is applied **only to correct samples**, ensuring a balanced optimization between *quality* and *diversity*.
+Their method introduces a **token-level entropy regularization** term to measure the richness of decision-making during generation—without biasing toward longer sequences. To ensure learning quality, this regularization is applied **only to correct samples**, ensuring a balanced optimization between _quality_ and _diversity_.
 
-Formally, R1-zero-Div augments the GRPO loss with a controlled diversity term, creating a training objective that rewards not only correctness but also the *variety* of valid reasoning paths.  
+Formally, R1-zero-Div augments the GRPO loss with a controlled diversity term, creating a training objective that rewards not only correctness but also the _variety_ of valid reasoning paths.  
 The approach is lightweight, requires **no extra supervision**, and integrates seamlessly into existing RL pipelines.
 
 ---
@@ -100,10 +100,6 @@ Together, these findings reveal that **diversity is not a by-product but a drive
 This work opens new directions for the next generation of reasoning-enhanced LLMs.  
 Future research will explore **semantic-level diversity**, moving beyond statistical entropy toward capturing distinct reasoning strategies and thought patterns, and validating the approach across larger models and cross-domain tasks.
 
-By bridging traditional RL insights with modern LLM reasoning, *Diversity-Aware Policy Optimization* marks a significant step toward **smarter, more explorative, and more human-like AI reasoning systems**.
+By bridging traditional RL insights with modern LLM reasoning, _Diversity-Aware Policy Optimization_ marks a significant step toward **smarter, more explorative, and more human-like AI reasoning systems**.
 
 ---
-
-
-
-

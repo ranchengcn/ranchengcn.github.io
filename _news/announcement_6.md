@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: announcement_6
 layout: post
 title: We released EvoX Genesis
 date: 2026-08-11 # format 2015-11-07 16:11:00-0400
