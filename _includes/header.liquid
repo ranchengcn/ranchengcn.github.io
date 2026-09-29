@@ -6,18 +6,7 @@
       {% if page.translation_key != 'about' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
           {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              {{- site.first_name -}}
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              <span class="font-weight-bold">
-                {{- site.last_name -}}
-              </span>
-              {% if current_lang == 'zh-CN' %}(程然){% endif %}
-            {% endif %}
+            {% include display_name.liquid %}
           {% else %}
             {{- site.title -}}
           {% endif %}
