@@ -33,7 +33,8 @@
     "code": "Code",
     "poster": "Poster",
     "slides": "Slides",
-    "website": "Website"
+    "website": "Website",
+    "search_keys": "Enter to select · ↑ ↓ to navigate · Esc to close"
   },
   "zh-CN": {
     "home": "个人简介",
@@ -69,6 +70,7 @@
     "code": "代码",
     "poster": "海报",
     "slides": "报告幻灯片",
-    "website": "网站"
+    "website": "网站",
+    "search_keys": "Enter 选择 · ↑ ↓ 切换 · Esc 关闭"
   }
 }

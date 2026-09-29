@@ -1355,3 +1355,10 @@ html[lang="zh-CN"] body {
     font-size: 1.1rem;
   }
 }
+
+.search-shortcuts {
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+}
