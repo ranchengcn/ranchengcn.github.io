@@ -1350,71 +1350,54 @@ html[lang="zh-CN"] body {
 .language-switcher {
   align-self: center;
 
-  .language-toggle {
+  .language-options {
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+    padding: 0 0.5rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  .language-option {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    border: 0;
-    border-radius: 50%;
-    background: transparent;
-    cursor: pointer;
+    min-height: 40px;
+    padding: 0 0.2rem;
+    color: var(--global-text-color);
+    opacity: 0.65;
 
-    &:hover,
-    &[aria-expanded="true"] {
-      background: var(--global-code-bg-color);
+    &.is-current {
+      font-weight: 600;
+      opacity: 1;
+    }
+  }
+
+  a.language-option {
+    &:hover {
+      color: var(--global-theme-color);
+      opacity: 1;
     }
 
     &:focus-visible {
       outline: 2px solid var(--global-theme-color);
       outline-offset: 2px;
+      border-radius: 2px;
+      opacity: 1;
     }
   }
 
-  .dropdown-menu {
-    position: absolute;
-    right: 0;
-    left: auto;
-    min-width: 10rem;
-    padding: 0.35rem;
-    margin-top: 0.35rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.65rem;
-    background: var(--global-bg-color);
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
-  }
-
-  .dropdown-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0.6rem 0.75rem;
-    border-radius: 0.35rem;
+  .language-divider {
     color: var(--global-text-color);
-
-    &.active {
-      color: var(--global-theme-color);
-      background: transparent;
-      font-weight: 500;
-    }
-
-    &:hover,
-    &:focus {
-      color: var(--global-theme-color);
-      background: var(--global-code-bg-color);
-    }
+    opacity: 0.35;
   }
 }
 @media (max-width: 575.98px) {
   .language-switcher {
     align-self: flex-end;
 
-    .language-toggle {
-      width: 44px;
-      height: 44px;
+    .language-option {
+      min-height: 44px;
     }
   }
 }
