@@ -1,35 +1,83 @@
 {% if page.translation_key %}
   {% assign documents = site.pages | concat: site.news | concat: site.news_zh %}
   {% assign translations = documents | where: 'translation_key', page.translation_key | sort: 'lang' %}
-  <li class="nav-item language-switcher">
-    <div class="language-options" role="group" aria-label="{{ t.choose_language }}">
+  <li class="nav-item dropdown language-switcher">
+    <button
+      class="nav-link language-toggle"
+      id="language-toggle"
+      type="button"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+      aria-controls="language-menu"
+      aria-label="{{ t.choose_language }}"
+      title="{{ t.choose_language }}"
+    >
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="m5 8 6 6m-7 0 6-6 2-3H2m5-3h1m14 18-5-11-5 11m2-4h6"></path>
+      </svg>
+      <span>
+        {%- if current_lang == 'zh-CN' %}简体中文{% else %}English{% endif -%}
+      </span>
+      <svg
+        class="language-chevron"
+        width="12"
+        height="12"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="m6 9 6 6 6-6"></path>
+      </svg>
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" id="language-menu" role="menu" aria-labelledby="language-toggle">
       {% for translation in translations %}
-        {% if translation.lang == 'zh-CN' %}
-          {% assign language_label = '中文' %}
-          {% assign language_name = '简体中文' %}
-        {% else %}
-          {% assign language_label = 'EN' %}
-          {% assign language_name = 'English' %}
-        {% endif %}
-        {% unless forloop.first -%}
-          <span class="language-divider" aria-hidden="true">/</span>
-        {%- endunless %}
-        {% if translation.lang == current_lang %}
-          <span class="language-option is-current" lang="{{ translation.lang }}" aria-current="true" title="{{ language_name }}">
-            {{- language_label -}}
+        <a
+          class="dropdown-item {% if translation.lang == current_lang %}active{% endif %}"
+          role="menuitem"
+          href="{{ translation.url | relative_url }}"
+          lang="{{ translation.lang }}"
+          hreflang="{{ translation.lang }}"
+          {% if translation.lang == current_lang %}
+            aria-current="true"
+          {% endif %}
+        >
+          <span>
+            {%- if translation.lang == 'zh-CN' %}简体中文{% else %}English{% endif -%}
           </span>
-        {% else %}
-          <a
-            class="language-option"
-            href="{{ translation.url | relative_url }}"
-            lang="{{ translation.lang }}"
-            hreflang="{{ translation.lang }}"
-            aria-label="{{ language_name }}"
-            title="{{ language_name }}"
-          >
-            {{- language_label -}}
-          </a>
-        {% endif %}
+          {% if translation.lang == current_lang %}
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="m5 12 4 4 10-10"></path>
+            </svg>
+          {% endif %}
+        </a>
       {% endfor %}
     </div>
   </li>
