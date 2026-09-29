@@ -85,7 +85,9 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
       - name: Check translation coverage
-        run: python3 bin/check_i18n.py
+        run: |
+          python3 bin/check_i18n.py
+          node bin/test_language.cjs
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
