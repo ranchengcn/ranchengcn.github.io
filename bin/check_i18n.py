@@ -105,6 +105,9 @@ def main():
             assert '{{' not in text and '{%' not in text, f'Unrendered Liquid: {path}'
         for suffix in ('', 'zh-cn/'):
             assert (site / suffix / 'assets/js/search-data.js').exists(), 'Missing language search index'
+            publications = (site / suffix / 'publications/index.html').read_text(encoding='utf-8')
+            assert re.search(r'<input\b[^>]*id="bibsearch"', publications), 'Publication filter was escaped by Markdown'
+            assert '--- ---' not in publications, 'Bibliography front matter leaked into HTML'
         # Bibliography records themselves must be identical in both languages.
         pattern = r'<div class="title">(.*?)</div>'
         english = re.findall(pattern, (site/'publications/index.html').read_text(encoding='utf-8'), re.S)
