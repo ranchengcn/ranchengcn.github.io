@@ -1,0 +1,7 @@
+{%- if current_lang == 'zh-CN' -%}
+  {{- site.chinese_name -}}
+{%- else -%}
+  {{ site.first_name }}
+  {% if site.middle_name %}{{ site.middle_name }} {% endif -%}
+  <span class="font-weight-bold">{{ site.last_name }}</span>
+{%- endif -%}

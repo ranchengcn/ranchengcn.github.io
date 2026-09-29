@@ -1,0 +1,28 @@
+{% include i18n.liquid %}
+{% assign contact = site.data.contact %}
+<h2>
+  {% if current_lang == 'zh-CN' %}联系信息{% else %}Contact Information{% endif %}
+</h2>
+<p>
+  <strong>
+    {%- if current_lang == 'zh-CN' %}办公室：{% else %}Office: {% endif -%}
+  </strong>
+  {{- contact.office[current_lang] }}
+</p>
+<p>
+  <strong>
+    {%- if current_lang == 'zh-CN' %}地址：{% else %}Address: {% endif -%}
+  </strong>
+  {{- contact.address[current_lang] }}
+</p>
+<p>
+  <strong>
+    {%- if current_lang == 'zh-CN' %}电话：{% else %}Phone: {% endif -%}
+  </strong>
+  {{- contact.phone }}
+</p>
+<p>
+  <strong>
+    {%- if current_lang == 'zh-CN' %}电子邮箱：{% else %}Email: {% endif -%}</strong
+  ><a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+</p>

@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: awards
 layout: page
 title: awards
 permalink: /awards/

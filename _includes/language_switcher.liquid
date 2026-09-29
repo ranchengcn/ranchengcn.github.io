@@ -1,0 +1,13 @@
+{% if page.translation_key %}
+  {% assign documents = site.pages | concat: site.news | concat: site.news_zh %}
+  {% assign translations = documents | where: 'translation_key', page.translation_key %}
+  <li class="nav-item language-switcher">
+    {% for translation in translations %}
+      {% if translation.lang != current_lang %}
+        <a class="nav-link" href="{{ translation.url | relative_url }}" lang="{{ translation.lang }}" hreflang="{{ translation.lang }}">
+          {% if translation.lang == 'zh-CN' %}简体中文{% else %}English{% endif %}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </li>
+{% endif %}

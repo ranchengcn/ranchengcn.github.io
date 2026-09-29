@@ -1,3 +1,4 @@
+{% include i18n.liquid %}
 {% if site.enable_google_verification or site.enable_bing_verification %}
   <!-- Website verification -->
   {% if site.enable_google_verification %}
@@ -16,6 +17,8 @@
 
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 
+{% if current_lang == 'zh-CN' %}{% assign author_name = site.chinese_name %}{% endif %}
+
 <!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +31,7 @@
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
+  {% elsif page.title != 'blank' and page.translation_key != 'about' %}
     {% if page.title == null or page.title == '' %}
       {{ page.date | date: '%Y' }} | {{ title }}
     {% else %}
@@ -61,7 +64,7 @@
   {% if page.og_image or site.og_image %}
     <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
   {% endif %}
-  <meta property="og:locale" content="{{ site.lang }}">
+  <meta property="og:locale" content="{{ current_lang | replace: '-', '_' }}">
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">

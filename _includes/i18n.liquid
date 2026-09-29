@@ -1,0 +1,6 @@
+{%- assign current_lang = page.lang | default: 'en' -%}
+{%- assign t = site.data.i18n[current_lang] -%}
+{%- assign home_url = '/' -%}
+{%- if current_lang == 'zh-CN' -%}
+  {%- assign home_url = '/zh-cn/' -%}
+{%- endif -%}

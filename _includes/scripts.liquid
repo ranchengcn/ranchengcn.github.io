@@ -305,9 +305,11 @@
 {% if site.search_enabled %}
   <!-- Search -->
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
-  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
+  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="{{ t.search_placeholder }}">
+    <div slot="footer" class="search-shortcuts">{{ t.search_keys }}</div>
+  </ninja-keys>
   <script src="{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}"></script>
-  <script src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
+  <script src="{{ home_url | append: 'assets/js/search-data.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 

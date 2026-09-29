@@ -1,11 +1,12 @@
 ---
+lang: en
+translation_key: announcement_5
 layout: post
 title: I am named a 2025 Clarivate highly cited researcher
 date: 2025-11-12 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
-
 
 I am honored to share that I have been named a **Highly Cited Researcher for 2025** by Clarivate.
 
@@ -17,12 +18,8 @@ This distinction is awarded to researchers who have demonstrated significant and
 
 ### Find Out More
 
-**My Clarivate Profile (Web of Science):** 
+**My Clarivate Profile (Web of Science):**
 [https://www.webofscience.com/wos/author/record/V-1486-2018](https://www.webofscience.com/wos/author/record/V-1486-2018)
 
 **Official 2025 Highly Cited Researchers List:**
 [https://clarivate.com/highly-cited-researchers/](https://clarivate.com/highly-cited-researchers/)
-
-
-
-

@@ -1342,3 +1342,23 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Use locally available Chinese fonts with a Latin font first in the stack.
+html[lang="zh-CN"] body {
+  font-family: "Roboto", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+}
+.language-switcher .nav-link {
+  white-space: nowrap;
+}
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+}
+
+.search-shortcuts {
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+}

@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: services
 layout: page
 title: services
 permalink: /services/

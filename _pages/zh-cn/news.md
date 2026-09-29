@@ -1,9 +1,9 @@
 ---
-lang: en
+lang: zh-CN
 translation_key: news
 layout: page
-title: news
-permalink: /news/
+title: 最新动态
+permalink: /zh-cn/news/
 nav: true
 nav_order: 1
 ---

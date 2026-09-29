@@ -73,6 +73,17 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+{% if page.translation_key %}
+  {% assign language_documents = site.pages | concat: site.news | concat: site.news_zh %}
+  {% assign language_variants = language_documents | where: 'translation_key', page.translation_key %}
+  {% for variant in language_variants %}
+    <link rel="alternate" hreflang="{{ variant.lang }}" href="{{ variant.url | absolute_url }}">
+    {% if variant.lang == 'en' %}<link rel="alternate" hreflang="x-default" href="{{ variant.url | absolute_url }}">{% endif %}
+  {% endfor %}
+{% endif %}
+
+<script src="{{ '/assets/js/language.js' | relative_url | bust_file_cache }}"></script>
+
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% if site.enable_darkmode %}
