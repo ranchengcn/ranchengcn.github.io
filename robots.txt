@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://ranchengcn.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://chengran.tech/sitemap.xml
