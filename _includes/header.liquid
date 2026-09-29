@@ -16,7 +16,7 @@
               <span class="font-weight-bold">
                 {{- site.last_name -}}
               </span>
-              (程然)
+              {% if current_lang == 'zh-CN' %}(程然){% endif %}
             {% endif %}
           {% else %}
             {{- site.title -}}

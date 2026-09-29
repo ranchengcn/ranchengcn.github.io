@@ -8,7 +8,8 @@ layout: default
       {% if site.title == 'blank' %}
         {{ site.first_name }}
         {{ site.middle_name }}
-        <span class="font-weight-bold">{{ site.last_name }}</span> (程然)
+        <span class="font-weight-bold">{{ site.last_name }}</span>
+        {% if current_lang == 'zh-CN' %}(程然){% endif %}
       {% else %}
         {{ site.title }}
       {% endif %}
