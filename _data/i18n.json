@@ -34,7 +34,8 @@
     "poster": "Poster",
     "slides": "Slides",
     "website": "Website",
-    "search_keys": "Enter to select · ↑ ↓ to navigate · Esc to close"
+    "search_keys": "Enter to select · ↑ ↓ to navigate · Esc to close",
+    "choose_language": "Choose language"
   },
   "zh-CN": {
     "home": "个人简介",
@@ -71,6 +72,7 @@
     "poster": "海报",
     "slides": "报告幻灯片",
     "website": "网站",
-    "search_keys": "Enter 选择 · ↑ ↓ 切换 · Esc 关闭"
+    "search_keys": "Enter 选择 · ↑ ↓ 切换 · Esc 关闭",
+    "choose_language": "切换语言"
   }
 }

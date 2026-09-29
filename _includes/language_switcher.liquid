@@ -1,13 +1,68 @@
 {% if page.translation_key %}
   {% assign documents = site.pages | concat: site.news | concat: site.news_zh %}
   {% assign translations = documents | where: 'translation_key', page.translation_key %}
-  <li class="nav-item language-switcher">
-    {% for translation in translations %}
-      {% if translation.lang != current_lang %}
-        <a class="nav-link" href="{{ translation.url | relative_url }}" lang="{{ translation.lang }}" hreflang="{{ translation.lang }}">
-          {% if translation.lang == 'zh-CN' %}简体中文{% else %}English{% endif %}
+  <li class="nav-item dropdown language-switcher">
+    <button
+      class="nav-link language-toggle"
+      id="language-toggle"
+      type="button"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+      aria-controls="language-menu"
+      aria-label="{{ t.choose_language }}"
+      title="{{ t.choose_language }}"
+    >
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <circle cx="12" cy="12" r="9"></circle>
+        <ellipse cx="12" cy="12" rx="4" ry="9"></ellipse>
+        <path d="M3 12h18"></path>
+      </svg>
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" id="language-menu" role="menu" aria-labelledby="language-toggle">
+      {% for translation in translations %}
+        <a
+          class="dropdown-item {% if translation.lang == current_lang %}active{% endif %}"
+          role="menuitem"
+          href="{{ translation.url | relative_url }}"
+          lang="{{ translation.lang }}"
+          hreflang="{{ translation.lang }}"
+          {% if translation.lang == current_lang %}
+            aria-current="true"
+          {% endif %}
+        >
+          <span>
+            {%- if translation.lang == 'zh-CN' %}简体中文{% else %}English{% endif -%}
+          </span>
+          {% if translation.lang == current_lang %}
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="m5 12 4 4 10-10"></path>
+            </svg>
+          {% endif %}
         </a>
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    </div>
   </li>
 {% endif %}
