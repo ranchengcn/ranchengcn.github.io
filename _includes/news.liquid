@@ -20,7 +20,9 @@
       </table>
     </div>
     {% if include.limit and news_size > news_limit %}
-      <p><a href="{{ home_url | append: 'news/' | relative_url }}">{{ t.news_view_more }}</a></p>
+      <p>
+        <a href="{{ home_url | append: 'news/' | relative_url }}">{{ t.news_view_more }}</a>
+      </p>
     {% endif %}
   {% else %}
     <p>{{ t.empty_news }}</p>
