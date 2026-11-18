@@ -36,8 +36,7 @@
     "website": "Website",
     "search_keys": "Enter to select · ↑ ↓ to navigate · Esc to close",
     "choose_language": "Choose language",
-    "news_show_more": "Show more",
-    "news_show_less": "Show less"
+    "news_view_more": "View more"
   },
   "zh-CN": {
     "home": "个人简介",
@@ -76,7 +75,6 @@
     "website": "网站",
     "search_keys": "Enter 选择 · ↑ ↓ 切换 · Esc 关闭",
     "choose_language": "切换语言",
-    "news_show_more": "展开更多",
-    "news_show_less": "收起"
+    "news_view_more": "查看更多"
   }
 }

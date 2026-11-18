@@ -20,19 +20,7 @@
       </table>
     </div>
     {% if include.limit and news_size > news_limit %}
-      <details class="news-archive">
-        <summary>
-          <span class="news-show-more">{{ t.news_show_more }}</span>
-          <span class="news-show-less">{{ t.news_show_less }}</span>
-        </summary>
-        <div class="table-responsive">
-          <table class="table table-sm table-borderless">
-            {% for item in news offset: news_limit %}
-              {% include news_row.liquid item=item %}
-            {% endfor %}
-          </table>
-        </div>
-      </details>
+      <p><a href="{{ home_url | append: 'news/' | relative_url }}">{{ t.news_view_more }}</a></p>
     {% endif %}
   {% else %}
     <p>{{ t.empty_news }}</p>
