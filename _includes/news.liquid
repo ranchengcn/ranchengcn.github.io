@@ -2,38 +2,38 @@
 <div class="news">
   {% assign news = site.news %}
   {% if current_lang == 'zh-CN' %}{% assign news = site.news_zh %}{% endif %}
-  {% if news != blank %}
+  {% if include.limit %}
+    {% assign news = news | where_exp: 'item', 'item.homepage != false' %}
+  {% endif %}
+  {% assign news = news | sort: 'date' | reverse %}
+  {% assign news_size = news | size %}
+  {% if news_size > 0 %}
+    {% assign news_limit = news_size %}
     {% if include.limit %}
-      {% assign news = news | where_exp: 'item', 'item.homepage != false' %}
+      {% assign news_limit = site.announcements.limit | default: 5 %}
     {% endif %}
-    {% assign news_size = news | size %}
-    <div
-      class="table-responsive"
-      {% if include.limit and site.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
-    >
+    <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% assign news = news | reverse %}
-        {% if include.limit and site.announcements.limit %}
-          {% assign news_limit = site.announcements.limit %}
-        {% else %}
-          {% assign news_limit = news_size %}
-        {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: t.date_format }}</th>
-            <td>
-              {% if item.inline %}
-                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {% else %}
-                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-              {% endif %}
-            </td>
-          </tr>
+          {% include news_row.liquid item=item %}
         {% endfor %}
       </table>
     </div>
+    {% if include.limit and news_size > news_limit %}
+      <details class="news-archive">
+        <summary>
+          <span class="news-show-more">{{ t.news_show_more }}</span>
+          <span class="news-show-less">{{ t.news_show_less }}</span>
+        </summary>
+        <div class="table-responsive">
+          <table class="table table-sm table-borderless">
+            {% for item in news offset: news_limit %}
+              {% include news_row.liquid item=item %}
+            {% endfor %}
+          </table>
+        </div>
+      </details>
+    {% endif %}
   {% else %}
     <p>{{ t.empty_news }}</p>
   {% endif %}

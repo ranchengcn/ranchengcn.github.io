@@ -51,3 +51,33 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+.news-archive {
+  margin-bottom: 1rem;
+
+  summary {
+    width: fit-content;
+    color: var(--global-theme-color);
+    cursor: pointer;
+    margin-bottom: 0.75rem;
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 4px;
+    }
+  }
+
+  .news-show-less {
+    display: none;
+  }
+
+  &[open] {
+    .news-show-more {
+      display: none;
+    }
+
+    .news-show-less {
+      display: inline;
+    }
+  }
+}

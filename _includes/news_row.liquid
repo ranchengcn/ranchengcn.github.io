@@ -1,0 +1,10 @@
+<tr>
+  <th scope="row" style="width: 20%">{{ include.item.date | date: t.date_format }}</th>
+  <td>
+    {% if include.item.inline %}
+      {{ include.item.content | remove: '<p>' | remove: '</p>' | emojify }}
+    {% else %}
+      <a class="news-title" href="{{ include.item.url | relative_url }}">{{ include.item.title }}</a>
+    {% endif %}
+  </td>
+</tr>
