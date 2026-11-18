@@ -53,6 +53,9 @@
 
   { id: "/zh-cn/news/announcement-6/", title: "发布EvoX Genesis", section: "最新动态", handler: () => { window.location.href =
   "/zh-cn/news/announcement-6/"; } },
+
+  { id: "/zh-cn/news/announcement-7/", title: "入选2026年科睿唯安高被引科学家榜单", section: "最新动态", handler: () => { window.location.href =
+  "/zh-cn/news/announcement-7/"; } },
 { id: 'social-email', title: 'email', section: "学术与社交链接", handler: () => { window.open("mailto:%72%61%6E%63%68%65%6E%67%63%6E@%67%6D%61%69%6C.%63%6F%6D",
     "_blank"); }, },{ id: 'social-github', title: 'GitHub', section: "学术与社交链接", handler: () => { window.open("https://github.com/EMI-Group",
     "_blank"); }, },{ id: 'social-orcid', title: 'ORCID', section: "学术与社交链接", handler: () => { window.open("https://orcid.org/0000-0001-9410-8263",

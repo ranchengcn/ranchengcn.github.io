@@ -65,6 +65,9 @@
 
   { id: "/news/announcement_6/", title: "We released EvoX Genesis", section: "News", handler: () => { window.location.href =
   "/news/announcement_6/"; } },
+
+  { id: "/news/announcement_7/", title: "I am named a 2026 Clarivate highly cited researcher", section: "News", handler: () => { window.location.href =
+  "/news/announcement_7/"; } },
 { id: 'social-email', title: 'email', section: "Socials", handler: () => { window.open("mailto:%72%61%6E%63%68%65%6E%67%63%6E@%67%6D%61%69%6C.%63%6F%6D",
     "_blank"); }, },{ id: 'social-github', title: 'GitHub', section: "Socials", handler: () => { window.open("https://github.com/EMI-Group",
     "_blank"); }, },{ id: 'social-orcid', title: 'ORCID', section: "Socials", handler: () => { window.open("https://orcid.org/0000-0001-9410-8263",
