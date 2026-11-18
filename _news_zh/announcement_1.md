@@ -2,10 +2,10 @@
 lang: zh-CN
 translation_key: announcement_1
 layout: post
-title: 荣获IEEE计算智能学会杰出青年学者奖
+title: 获评 2025 年 IEEE 计算智能学会杰出青年学者奖
 date: 2024-06-01 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-近日，IEEE计算智能学会（CIS）奖励委员会公布了2025年杰出青年学者奖（Outstanding Early Career Award）的评选结果，我有幸获此殊荣。该奖项设立于2010年，旨在表彰40岁以下青年学者在计算智能领域取得的杰出成就，每年评选一位获奖者。
+我获评了 IEEE 计算智能学会 2025 年杰出青年学者奖。这次获奖的工作是为复杂优化与决策问题设计高效的演化算法。[IEEE 授奖词](https://research.polyu.edu.hk/files/249603173/2025_IEEE_CIS_Outstanding_Early_Career_Award_Cheng_Ran.pdf)

@@ -8,16 +8,6 @@ inline: false
 related_posts: false
 ---
 
-我有幸入选**2025年科睿唯安高被引科学家（Highly Cited Researchers）榜单**。
+我入选了科睿唯安 2025 年高被引科学家榜单，入选学科为计算机科学。继 2023 年和 2024 年之后，这是我第三次入选。
 
-此次入选领域为**计算机科学**，也是我连续第三年获此殊荣（2023、2024、2025）。
-
-该榜单表彰在研究领域产生广泛而显著影响的学者：在过去十年间，其多篇论文在Web of Science™中达到所属领域引用次数前1%的水平。
-
-### 相关链接
-
-**我的Web of Science学者主页：**  
-[https://www.webofscience.com/wos/author/record/V-1486-2018](https://www.webofscience.com/wos/author/record/V-1486-2018)
-
-**2025年高被引科学家官方榜单：**  
-[https://clarivate.com/highly-cited-researchers/](https://clarivate.com/highly-cited-researchers/)
+香港理工大学今年共有 20 位学者上榜。和我同在数据科学及人工智能学系的陈家进教授也入选了计算机科学领域。[理大 2025 年入选名单](https://www.polyu.edu.hk/rio/news/2025/20251113---20-polyu-scholars-named-highly-cited-researchers-2025/)

@@ -14,4 +14,4 @@ related_posts: false
   </div>
 </div>
 
-我于2024年12月16日加入香港理工大学[数据科学及人工智能学系](https://www.polyu.edu.hk/dsai/)，担任副教授及校长青年学者。
+2024 年 12 月 16 日，我加入香港理工大学[数据科学及人工智能学系](https://www.polyu.edu.hk/dsai/)，担任副教授及校长青年学者。

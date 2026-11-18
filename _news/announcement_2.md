@@ -2,7 +2,7 @@
 lang: en
 translation_key: announcement_2
 layout: post
-title: I joined the Hong Kong Polytechnic Universtiy
+title: I joined The Hong Kong Polytechnic University
 date: 2024-12-16 # format 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
@@ -14,4 +14,4 @@ related_posts: false
     </div>
 </div>
 
-I joined the [Department of Data Science and Artificial Intelligence](https://www.polyu.edu.hk/dsai/) at Hong Kong Polytechnic Universtiy as Associate Professor and Presidential Young Scholar on 16 December 2024.
+On 16 December 2024, I joined The Hong Kong Polytechnic University as an Associate Professor and Presidential Young Scholar in the [Department of Data Science and Artificial Intelligence](https://www.polyu.edu.hk/dsai/).
