@@ -1,7 +1,7 @@
 {
   "en": {
     "home": "about",
-    "news": "news",
+    "news": "Latest news",
     "selected": "selected publications",
     "latest": "latest posts",
     "empty_news": "No news so far...",
@@ -35,8 +35,7 @@
     "slides": "Slides",
     "website": "Website",
     "search_keys": "Enter to select · ↑ ↓ to navigate · Esc to close",
-    "choose_language": "Choose language",
-    "news_view_more": "View more"
+    "choose_language": "Choose language"
   },
   "zh-CN": {
     "home": "个人简介",
@@ -74,7 +73,6 @@
     "slides": "报告幻灯片",
     "website": "网站",
     "search_keys": "Enter 选择 · ↑ ↓ 切换 · Esc 关闭",
-    "choose_language": "切换语言",
-    "news_view_more": "查看更多"
+    "choose_language": "切换语言"
   }
 }

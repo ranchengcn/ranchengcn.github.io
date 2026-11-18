@@ -38,39 +38,8 @@ body.sticky-bottom-footer {
   }
 }
 
-.news-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-
-  h2 {
-    margin: 0;
-
-    a {
-      color: inherit;
-    }
-  }
-
-  .news-more {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35em;
-    min-height: 2.75rem;
-    color: var(--global-text-color);
-    opacity: 0.72;
-    font-size: 0.875rem;
-    font-weight: 400;
-    white-space: nowrap;
-
-    &:hover,
-    &:focus-visible {
-      color: var(--global-theme-color);
-      opacity: 1;
-      text-decoration: underline;
-    }
-  }
+.news-heading a {
+  color: inherit;
 }
 
 // TODO: redefine content layout.

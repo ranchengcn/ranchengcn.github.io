@@ -2,7 +2,6 @@
 <div class="news">
   {% assign news = site.news %}
   {% if current_lang == 'zh-CN' %}{% assign news = site.news_zh %}{% endif %}
-  {% assign archive_size = news | size %}
   {% if include.limit %}
     {% assign news = news | where_exp: 'item', 'item.homepage != false' %}
   {% endif %}
@@ -11,18 +10,9 @@
   {% assign news_limit = news_size %}
   {% if include.limit %}
     {% assign news_limit = site.announcements.limit | default: 5 %}
-    <div class="news-heading">
-      <h2>
-        <a href="{{ home_url | append: 'news/' | relative_url }}">{{ t.news }}</a>
-      </h2>
-      {% assign visible_news = news_size | at_most: news_limit %}
-      {% if archive_size > visible_news %}
-        <a class="news-more" href="{{ home_url | append: 'news/' | relative_url }}">
-          {{- t.news_view_more }}
-          <span aria-hidden="true">→</span></a
-        >
-      {% endif %}
-    </div>
+    <h2 class="news-heading">
+      <a href="{{ home_url | append: 'news/' | relative_url }}">{{ t.news }}</a>
+    </h2>
   {% endif %}
   {% if news_size > 0 %}
     <div class="table-responsive">
