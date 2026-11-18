@@ -36,22 +36,22 @@
 
 
 
-  { id: "/zh-cn/news/announcement-1/", title: "荣获IEEE计算智能学会杰出青年学者奖", section: "最新动态", handler: () => { window.location.href =
+  { id: "/zh-cn/news/announcement-1/", title: "获评 2025 年 IEEE 计算智能学会杰出青年学者奖", section: "最新动态", handler: () => { window.location.href =
   "/zh-cn/news/announcement-1/"; } },
 
   { id: "/zh-cn/news/announcement-2/", title: "加入香港理工大学", section: "最新动态", handler: () => { window.location.href =
   "/zh-cn/news/announcement-2/"; } },
 
-  { id: "/zh-cn/news/announcement-3/", title: "EvoGit荣获AgentX国际竞赛多智能体系统赛道全球冠军", section: "最新动态", handler: () => { window.location.href =
+  { id: "/zh-cn/news/announcement-3/", title: "EvoGit 获 AgentX 多智能体赛道第一名", section: "最新动态", handler: () => { window.location.href =
   "/zh-cn/news/announcement-3/"; } },
 
-  { id: "/zh-cn/news/announcement-4/", title: "论文入选NeurIPS 2025 Spotlight", section: "最新动态", handler: () => { window.location.href =
+  { id: "/zh-cn/news/announcement-4/", title: "关于大模型解题多样性的论文入选 NeurIPS 2025 Spotlight", section: "最新动态", handler: () => { window.location.href =
   "/zh-cn/news/announcement-4/"; } },
 
   { id: "/zh-cn/news/announcement-5/", title: "入选2025年科睿唯安高被引科学家榜单", section: "最新动态", handler: () => { window.location.href =
   "/zh-cn/news/announcement-5/"; } },
 
-  { id: "/zh-cn/news/announcement-6/", title: "发布EvoX Genesis", section: "最新动态", handler: () => { window.location.href =
+  { id: "/zh-cn/news/announcement-6/", title: "发布 EvoX Genesis", section: "最新动态", handler: () => { window.location.href =
   "/zh-cn/news/announcement-6/"; } },
 
   { id: "/zh-cn/news/announcement-7/", title: "入选2026年科睿唯安高被引科学家榜单", section: "最新动态", handler: () => { window.location.href =

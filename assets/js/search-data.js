@@ -48,25 +48,25 @@
 
 
 
-  { id: "/news/announcement_1/", title: "I received the IEEE CIS outstanding early career award", section: "News", handler: () => { window.location.href =
+  { id: "/news/announcement_1/", title: "Selected for the 2025 IEEE CIS Outstanding Early Career Award", section: "News", handler: () => { window.location.href =
   "/news/announcement_1/"; } },
 
-  { id: "/news/announcement_2/", title: "I joined the Hong Kong Polytechnic Universtiy", section: "News", handler: () => { window.location.href =
+  { id: "/news/announcement_2/", title: "I joined The Hong Kong Polytechnic University", section: "News", handler: () => { window.location.href =
   "/news/announcement_2/"; } },
 
-  { id: "/news/announcement_3/", title: "Our EvoGit wins the first place of AgentX competition", section: "News", handler: () => { window.location.href =
+  { id: "/news/announcement_3/", title: "EvoGit wins the multi-agent track at AgentX", section: "News", handler: () => { window.location.href =
   "/news/announcement_3/"; } },
 
-  { id: "/news/announcement_4/", title: "Our paper is accepted by NeurIPS 2025 as spotlight", section: "News", handler: () => { window.location.href =
+  { id: "/news/announcement_4/", title: "Our paper on solution diversity is a NeurIPS 2025 Spotlight", section: "News", handler: () => { window.location.href =
   "/news/announcement_4/"; } },
 
-  { id: "/news/announcement_5/", title: "I am named a 2025 Clarivate highly cited researcher", section: "News", handler: () => { window.location.href =
+  { id: "/news/announcement_5/", title: "Named a 2025 Clarivate Highly Cited Researcher", section: "News", handler: () => { window.location.href =
   "/news/announcement_5/"; } },
 
   { id: "/news/announcement_6/", title: "We released EvoX Genesis", section: "News", handler: () => { window.location.href =
   "/news/announcement_6/"; } },
 
-  { id: "/news/announcement_7/", title: "I am named a 2026 Clarivate highly cited researcher", section: "News", handler: () => { window.location.href =
+  { id: "/news/announcement_7/", title: "Named a 2026 Clarivate Highly Cited Researcher", section: "News", handler: () => { window.location.href =
   "/news/announcement_7/"; } },
 { id: 'social-email', title: 'email', section: "Socials", handler: () => { window.open("mailto:%72%61%6E%63%68%65%6E%67%63%6E@%67%6D%61%69%6C.%63%6F%6D",
     "_blank"); }, },{ id: 'social-github', title: 'GitHub', section: "Socials", handler: () => { window.open("https://github.com/EMI-Group",
